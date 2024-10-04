@@ -28,7 +28,7 @@ function Content () {
     
     </div>
     <div>
-        <img src="/src/assets/Hakimi.jpg" className="sm:w-[450px ] sm:pl-0 pl-14 w-[350px] sm:pt-10  rounded-3xl absolute sm:top-10 sm:right-32"/>
+        <img src={Hakimi.jpg} className="sm:w-[450px ] sm:pl-0 pl-14 w-[350px] sm:pt-10  rounded-3xl absolute sm:top-10 sm:right-32"/>
     </div>
 </div>
 
@@ -37,7 +37,7 @@ function Content () {
 
 <div id="about" className="flex  py-24 sm:pl-24">
         <div className=" relative sm:w-[450px] ml-5 w-[320px] sm:h-[500px] h-[300px] border-[16px] rounded-3xl border-yellow-500 bg-transparent">
-            <img src="/src/assets/Hakimi.jpg" className="absolute pl-5 bottom-5 left-7 w-[550px] h-[300px] sm:h-[480px] rounded-2xl" />
+            <img src={Hakimi.jpg}  className="absolute pl-5 bottom-5 left-7 w-[550px] h-[300px] sm:h-[480px] rounded-2xl" />
         </div>
     </div>
     <div className="sm:pl-32 pl-10 sm:pt-24">
