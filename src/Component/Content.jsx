@@ -1,10 +1,10 @@
 import cv from "../cv/cv.pdf"
-import assets from"../assets/pic1"
-import assets from"../assets/pic2"
-import assets from"../assets/pic3"
-import assets from"../assets/pic4"
-import assets from"../assets/pic5"
-import assets from"../assets/Hakimi.jpg"
+import pic1 from"../assets/pic1.png"
+import pic2 from"../assets/Hormuud.png"
+import pic3 from"../assets/pic3.png"
+import pic4 from"../assets/pic4.png"
+import pic5 from"../assets/pic5.png"
+import hakimi from"../assets/Hakimi.jpg"
 
 function Content () {
 
@@ -28,7 +28,7 @@ function Content () {
     
     </div>
     <div>
-        <img src={Hakimi.jpg} className="sm:w-[450px ] sm:pl-0 pl-14 w-[350px] sm:pt-10  rounded-3xl absolute sm:top-10 sm:right-32"/>
+        <img src={hakimi} className="sm:w-[450px ] sm:pl-0 pl-14 w-[350px] sm:pt-10  rounded-3xl absolute sm:top-10 sm:right-32"/>
     </div>
 </div>
 
@@ -37,7 +37,7 @@ function Content () {
 
 <div id="about" className="flex  py-24 sm:pl-24">
         <div className=" relative sm:w-[450px] ml-5 w-[320px] sm:h-[500px] h-[300px] border-[16px] rounded-3xl border-yellow-500 bg-transparent">
-            <img src={Hakimi.jpg}  className="absolute pl-5 bottom-5 left-7 w-[550px] h-[300px] sm:h-[480px] rounded-2xl" />
+            <img src={hakimi}  className="absolute pl-5 bottom-5 left-7 w-[550px] h-[300px] sm:h-[480px] rounded-2xl" />
         </div>
     </div>
     <div className="sm:pl-32 pl-10 sm:pt-24">
@@ -97,15 +97,15 @@ function Content () {
         <span className="pl-3">endeavors to personal milestones. Discover who I am.</span>
     </p>
     <div className="pb-10 sm:flex">
-        <img src="/src/assets/pic5.png" className="sm:w-[450px] w-[300px] sm:ml-0 ml-10 rounded-3xl mr-10" />
+        <img src={pic5} className="sm:w-[450px] w-[300px] sm:ml-0 ml-10 rounded-3xl mr-10" />
         <div className="inline-block">
             <div className="sm:flex sm:mt-5 sm:ml-0 ml-10 mt-10">
-                <img src="/src/assets/pic1.png" className="w-[250px] h-[250px] rounded-2xl mr-6 mb-6" />
-                <img src="/src/assets/Hormuud.png" className="w-[250px] h-[250px] rounded-2xl" />
+                <img src={pic1} className="w-[250px] h-[250px] rounded-2xl mr-6 mb-6" />
+                <img src={pic3} className="w-[250px] h-[250px] rounded-2xl" />
             </div>
             <div className="sm:flex  sm:mt-5 sm:ml-0 ml-10 mt-10">
-                <img src="/src/assets/pic3.png" className="w-[250px] h-[250px] rounded-2xl  mr-6" />
-                <img src="/src/assets/pic4.png" className="w-[250px] h-[250px] pt-10 rounded-2xl" />
+                <img src={pic3} className="w-[250px] h-[250px] rounded-2xl  mr-6" />
+                <img src={pic4} className="w-[250px] h-[250px] pt-10 rounded-2xl" />
             </div>
         </div>
     </div>
