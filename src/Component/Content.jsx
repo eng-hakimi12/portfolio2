@@ -1,4 +1,10 @@
 import cv from "../cv/cv.pdf"
+import assets from"../assets/pic1"
+import assets from"../assets/pic2"
+import assets from"../assets/pic3"
+import assets from"../assets/pic4"
+import assets from"../assets/pic5"
+import assets from"../assets/Hakimi.jpg"
 
 function Content () {
 
